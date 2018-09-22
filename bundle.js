@@ -259,7 +259,7 @@ var Widget = function (_React$Component) {
 
     // require this component to re-render whenever the store's state changes
     _this.props.store.subscribe(_this.forceUpdate);
-    _this.cities = ["San Francisco", "Seattle", "New York", "Austin", "Remote"];
+    _this.cities = ["San Francisco", "Los Angeles", "Remote"];
     _this.selectLocation = _actions.selectLocation.bind(_this);
     return _this;
   }
