@@ -9,7 +9,7 @@ class Widget extends React.Component {
 
     // require this component to re-render whenever the store's state changes
     this.props.store.subscribe(this.forceUpdate);
-    this.cities = ["San Francisco", "Seattle", "New York", "Austin", "Remote"];
+    this.cities = ["San Francisco", "Los Angeles", "Remote"];
     this.selectLocation = selectLocation.bind(this);
   }
 
